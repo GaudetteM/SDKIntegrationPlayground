@@ -1,0 +1,23 @@
+package com.sdkintegrationplayground
+
+import com.facebook.react.bridge.*
+
+class DeviceInfoModule(reactContext: ReactApplicationContext) :
+    ReactContextBaseJavaModule(reactContext) {
+
+    override fun getName(): String = "DeviceInfoModule"
+
+    @ReactMethod
+    fun getDeviceInfo(promise: Promise) {
+        try {
+            val version = android.os.Build.VERSION.RELEASE ?: "unknown"
+            val result = Arguments.createMap().apply {
+                putString("platform", "android")
+                putString("version", version)
+            }
+            promise.resolve(result)
+        } catch (e: Exception) {
+            promise.reject("ERROR", e)
+        }
+    }
+}

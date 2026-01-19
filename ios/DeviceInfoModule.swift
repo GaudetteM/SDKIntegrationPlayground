@@ -1,0 +1,29 @@
+//
+//  DeviceInfoModule.swift
+//  SDKIntegrationPlayground
+//
+//  Created by Mike Gaudette on 1/19/26.
+//
+
+import Foundation
+
+@objc(DeviceInfoModule)
+class DeviceInfoModule: NSObject {
+
+  @objc
+  func getDeviceInfo(
+    _ resolve: RCTPromiseResolveBlock,
+    rejecter reject: RCTPromiseRejectBlock
+  ) {
+    let systemVersion = UIDevice.current.systemVersion
+    resolve([
+      "platform": "iOS",
+      "version": systemVersion
+    ])
+  }
+
+  @objc
+  static func requiresMainQueueSetup() -> Bool {
+    return false
+  }
+}
