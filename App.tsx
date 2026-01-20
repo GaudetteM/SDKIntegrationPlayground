@@ -1,6 +1,6 @@
 import { StatusBar, useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import DeviceInfoScreen from './app/screens/DeviceInfoScreen';
+import LandingScreen from './app/screens/LandingScreen';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
@@ -14,7 +14,7 @@ function App() {
 }
 
 function AppContent() {
-  return <DeviceInfoScreen />;
+  return <LandingScreen />;
 }
 
 export default App;

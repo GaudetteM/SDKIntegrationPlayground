@@ -11,6 +11,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2725DC5F2F1E0D0100852D91 /* DeviceInfoModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2725DC5E2F1E0D0100852D91 /* DeviceInfoModule.swift */; };
 		2725DC632F1E0DCE00852D91 /* DeviceInfoModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725DC622F1E0DCE00852D91 /* DeviceInfoModule.m */; };
+		2725DC652F1F1D5D00852D91 /* HapticsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2725DC642F1F1D5D00852D91 /* HapticsModule.m */; };
+		2725DC672F1F1D7900852D91 /* HapticsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2725DC662F1F1D7900852D91 /* HapticsModule.swift */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		7E223A63B8E5483B950A54C1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -24,6 +26,8 @@
 		2725DC5E2F1E0D0100852D91 /* DeviceInfoModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoModule.swift; sourceTree = "<group>"; };
 		2725DC612F1E0DCE00852D91 /* SDKIntegrationPlayground-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDKIntegrationPlayground-Bridging-Header.h"; sourceTree = "<group>"; };
 		2725DC622F1E0DCE00852D91 /* DeviceInfoModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoModule.m; sourceTree = "<group>"; };
+		2725DC642F1F1D5D00852D91 /* HapticsModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HapticsModule.m; sourceTree = "<group>"; };
+		2725DC662F1F1D7900852D91 /* HapticsModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsModule.swift; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-SDKIntegrationPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKIntegrationPlayground.debug.xcconfig"; path = "Target Support Files/Pods-SDKIntegrationPlayground/Pods-SDKIntegrationPlayground.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-SDKIntegrationPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKIntegrationPlayground.release.xcconfig"; path = "Target Support Files/Pods-SDKIntegrationPlayground/Pods-SDKIntegrationPlayground.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-SDKIntegrationPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKIntegrationPlayground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +55,8 @@
 				761780EC2CA45674006654EE /* AppDelegate.swift */,
 				2725DC622F1E0DCE00852D91 /* DeviceInfoModule.m */,
 				2725DC5E2F1E0D0100852D91 /* DeviceInfoModule.swift */,
+				2725DC642F1F1D5D00852D91 /* HapticsModule.m */,
+				2725DC662F1F1D7900852D91 /* HapticsModule.swift */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2725DC652F1F1D5D00852D91 /* HapticsModule.m in Sources */,
 				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
 				2725DC5F2F1E0D0100852D91 /* DeviceInfoModule.swift in Sources */,
+				2725DC672F1F1D7900852D91 /* HapticsModule.swift in Sources */,
 				2725DC632F1E0DCE00852D91 /* DeviceInfoModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

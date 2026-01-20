@@ -2,7 +2,7 @@
 //  DeviceInfoModule.m
 //  SDKIntegrationPlayground
 //
-//  Created by Mike Gaudette on 1/19/26.
+//  Created by Mike Gaudette on 1/18/26.
 //
 
 #import <React/RCTBridgeModule.h>
