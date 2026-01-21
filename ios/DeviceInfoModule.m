@@ -1,6 +1,6 @@
 //
 //  DeviceInfoModule.m
-//  SDKIntegrationPlayground
+//  NativeModulePlayground
 //
 //  Created by Mike Gaudette on 1/18/26.
 //

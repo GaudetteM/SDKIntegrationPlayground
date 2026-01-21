@@ -1,6 +1,6 @@
 //
 //  HapticsModule.swift
-//  SDKIntegrationPlayground
+//  NativeModulePlayground
 //
 //  Created by Mike Gaudette on 1/19/26.
 //

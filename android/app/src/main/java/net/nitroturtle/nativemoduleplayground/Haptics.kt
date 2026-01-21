@@ -1,4 +1,4 @@
-package com.sdkintegrationplayground
+package net.nitroturtle.nativemoduleplayground
 
 import android.content.Context
 import android.os.Build

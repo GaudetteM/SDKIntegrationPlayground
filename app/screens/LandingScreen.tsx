@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { View, StyleSheet, ActivityIndicator, Text } from 'react-native';
+import { View, StyleSheet, ActivityIndicator, Text, StatusBar } from 'react-native';
 import { getDeviceInfo } from '../native/DeviceInfo';
 import { DeviceInfoCard } from '../components/DeviceInfoCard';
 import { ThemeToggle } from '../components/ThemeToggle';
@@ -42,6 +42,10 @@ export default function LandingScreen() {
         isDark ? styles.darkContainer : styles.lightContainer,
       ]}
     >
+      <StatusBar
+        barStyle={isDark ? 'light-content' : 'dark-content'}
+        backgroundColor={isDark ? '#0a0a0a' : '#f8f9fa'}
+      />
       <ThemeToggle isDark={isDark} onToggle={toggleDarkMode} />
 
       {loading && (

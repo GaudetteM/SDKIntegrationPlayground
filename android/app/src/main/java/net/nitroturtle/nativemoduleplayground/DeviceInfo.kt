@@ -1,4 +1,4 @@
-package com.sdkintegrationplayground
+package net.nitroturtle.nativemoduleplayground
 
 import com.facebook.react.bridge.*
 

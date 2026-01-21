@@ -1,4 +1,4 @@
-package com.sdkintegrationplayground
+package net.nitroturtle.nativemoduleplayground
 
 import android.app.Application
 import com.facebook.react.PackageList
