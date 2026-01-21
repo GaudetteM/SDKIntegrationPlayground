@@ -12,7 +12,7 @@ class DeviceInfoModule(reactContext: ReactApplicationContext) :
         try {
             val version = android.os.Build.VERSION.RELEASE ?: "unknown"
             val result = Arguments.createMap().apply {
-                putString("platform", "android")
+                putString("platform", "Android")
                 putString("version", version)
             }
             promise.resolve(result)
