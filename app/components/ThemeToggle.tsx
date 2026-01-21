@@ -10,7 +10,7 @@ export function ThemeToggle({ isDark, onToggle }: ThemeToggleProps) {
   return (
     <View style={styles.container}>
       <Text style={[styles.label, isDark ? styles.darkText : styles.lightText]}>
-        {isDark ? '⏾ Dark Mode' : '🔆 Light Mode'}
+        {isDark ? '🌙 Dark Mode' : '🔆 Light Mode'}
       </Text>
       <TouchableOpacity
         style={[
