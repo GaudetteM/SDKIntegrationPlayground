@@ -17,7 +17,7 @@ class DeviceInfoModule(reactContext: ReactApplicationContext) :
             }
             promise.resolve(result)
         } catch (e: Exception) {
-            promise.reject("ERROR", e)
+            promise.reject("GET_DEVICE_INFO_FAILED", e)
         }
     }
 }
