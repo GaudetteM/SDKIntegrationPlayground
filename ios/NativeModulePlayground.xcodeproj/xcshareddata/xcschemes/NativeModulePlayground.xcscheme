@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "SDKIntegrationPlayground.app"
-               BlueprintName = "SDKIntegrationPlayground"
-               ReferencedContainer = "container:SDKIntegrationPlayground.xcodeproj">
+               BuildableName = "NativeModulePlayground.app"
+               BlueprintName = "NativeModulePlayground"
+               ReferencedContainer = "container:NativeModulePlayground.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "SDKIntegrationPlaygroundTests.xctest"
-               BlueprintName = "SDKIntegrationPlaygroundTests"
-               ReferencedContainer = "container:SDKIntegrationPlayground.xcodeproj">
+               BuildableName = "NativeModulePlaygroundTests.xctest"
+               BlueprintName = "NativeModulePlaygroundTests"
+               ReferencedContainer = "container:NativeModulePlayground.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SDKIntegrationPlayground.app"
-            BlueprintName = "SDKIntegrationPlayground"
-            ReferencedContainer = "container:SDKIntegrationPlayground.xcodeproj">
+            BuildableName = "NativeModulePlayground.app"
+            BlueprintName = "NativeModulePlayground"
+            ReferencedContainer = "container:NativeModulePlayground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "SDKIntegrationPlayground.app"
-            BlueprintName = "SDKIntegrationPlayground"
-            ReferencedContainer = "container:SDKIntegrationPlayground.xcodeproj">
+            BuildableName = "NativeModulePlayground.app"
+            BlueprintName = "NativeModulePlayground"
+            ReferencedContainer = "container:NativeModulePlayground.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
