@@ -4,7 +4,10 @@ A React Native playground focused on **native SDK and platform integrations** us
 
 This is not a production app. It exists to demonstrate how real-world mobile features are implemented when JavaScript alone isn’t enough.
 
-![Native Module Playground](screenshots/NativeModuleDark.png) ![Native Module Playground](screenshots/NativeModuleLight.png)
+<p align="center">
+  <img src="screenshots/native-dark.png" width="280" style="margin-right: 12px;" />
+  <img src="screenshots/native-light.png" width="280" />
+</p>
 
 ---
 
